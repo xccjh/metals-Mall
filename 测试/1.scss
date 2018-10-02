@@ -1,0 +1,116 @@
+.wjs_header{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    a{
+        color: #333;
+    }
+    .row{
+        height: 100%;
+        div{
+            text-align: center;
+        }
+        > div:nth-of-type(-n + 3){
+            border-right: 1px solid #ccc;
+        }
+        .wjs_code{
+            width: 100%;
+            height: 100%;
+            display: block;
+            > img {
+                display: none;
+                position: absolute;
+                z-index:998;
+                left: 50%;
+                top: 49px;
+                transform: translate(-50%,0);
+                border:1px solid #ccc;
+                border-top:none;
+            }
+            &:hover{
+                > img{
+                    display: block;
+                }
+            }
+        }
+        > div:last-of-type{
+            .btn-danger{
+                background-color: red;
+                border: none;
+            }
+            .btn{
+                padding: 3px 15px;
+            }
+            .btn-link{
+                color: #333;
+                &:hover{
+                text-decoration:none;
+                }
+            }
+        }
+    }
+}
+
+// 导航条重置之后的样式
+.wjs_nav{
+    .navbar-toggle{
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .wjs_icon{
+        font-size: 40px;
+        line-height: 50px;
+        &.wjs_icon_logo{
+            color:red;
+        }
+        &.wjs_icon_text{
+            color:#000;
+        }
+    }
+    .navbar-nav{
+        > li {
+            height: 80px;
+            margin-left: 10px;
+            > a {
+                height: 100%;
+                line-height: 50px;
+                font-size: 16px;
+            }
+            > a:hover,a:focus{
+                color: #777;
+                border-bottom: 3px solid red;
+                box-sizing: border-box;
+            }
+        }
+        .active{
+            > a,a:hover,a:focus{
+                color:#777;
+                background-color: transparent;
+                border-bottom: 3px solid red;
+            }
+        }
+    }
+    
+}
+
+
+// 轮播图
+.wjs_banner{
+    .mobileImg {
+        width: 100%;
+        display: block;
+      }
+
+      .mobileImg >img {
+        width: 100%;
+        display: block;
+      }
+
+      .pcImg {
+        width: 100%;
+        height: 380px;
+        display: block;
+        background-size: cover;
+        background-position: center;
+      }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 12px;
+        }
+        div{
+            /* 默认会参照当前元素所设置的字体大小，如果没有设置，则参照父容器，一直到根元素，如果根元素也没有设置，就参照当前浏览器 */
+            width: 10em;
+            height: 10em;
+            background-color: #f00;
+            /* 受限制于当前元素的字体大小，经常和会当前元素的实际需求冲突 */
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        asdf
+    </div>
+</body>
+</html>
