@@ -1,5 +1,4 @@
-- # 微金所网站 index
-- #Basic exercise
+- # 微金所网站 index Basic exercise
 - #less.js
 - #sacs.js
 - #template-web.js
