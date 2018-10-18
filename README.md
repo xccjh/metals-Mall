@@ -7,9 +7,5 @@
 - #html5shiv
 - #bootstrap
 - #rem
-- 
-- 
-- 
-- 
-- 
+
 ![wjs-index.html](https://github.com/xccjh/wjs/blob/master/images/wjs-index.html.jpg)
