@@ -1,4 +1,4 @@
-- # 微金所网站 index Basic exercise
+- # metals-Mall
 - #less.js
 - #sacs.js
 - #template-web.js
@@ -7,4 +7,4 @@
 - #bootstrap
 - #rem
 
-![wjs-index.html](https://github.com/xccjh/wjs/blob/master/images/wjs-index.html.jpg)
+
